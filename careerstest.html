@@ -1,0 +1,251 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo Job Portal</title>
+    <link rel="stylesheet" href="./teststyles.css" />
+  </head>
+
+  <!--LOGO SECTION-->
+
+  <body class="application header-comfortable">
+    <div class="page application">
+      <div class="main-header page-full-width section-wrapper">
+        <div
+          class="main-header-content page-centered narrow-section page-full-width"
+        >
+          <a
+            href="https://www.relativity.com/careers/available-positions/"
+            class="main-header-logo"
+            ><img
+              alt="Relativity logo"
+              src="https://lever-client-logos.s3.amazonaws.com/58f14b62-e545-47a4-bf79-674ad73b42e3-1515010593285.png"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-wrapper application-page">
+      <div class="content">
+        <div
+          class="section-wrapper accent-section small-accent page-full-width"
+        >
+          <div class="section page-centered posting-header">
+            <h2>Associate Product Manager - Remote</h2>
+          </div>
+        </div>
+
+        <div class="section-wrapper page-full-width">
+          <form enctype="multipart/form-data" method="POST">
+            <div class="section page-centered application-form">
+              <h4>Submit your application</h4>
+              <ul>
+                <li class="application-question">
+                  <label
+                    ><div class="application-label">
+                      Full name<span class="required">✱</span>
+                    </div>
+                    <div class="application-field">
+                      <input type="text" name="name" required /></div
+                  ></label>
+                </li>
+                <li class="application-question">
+                  <label
+                    ><div class="application-label">
+                      Email<span class="required">✱</span>
+                    </div>
+                    <div class="application-field">
+                      <input
+                        name="email"
+                        type="email"
+                        pattern="[a-zA-Z0-9.#$%&amp;'*+\/=?^_`{|}~][a-zA-Z0-9.!#$%&amp;'*+\/=?^_`{|}~-]*@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*"
+                        required
+                      /></div
+                  ></label>
+                </li>
+                <li class="application-question">
+                  <label
+                    ><div class="application-label">
+                      Phone <span class="required">✱</span>
+                    </div>
+                    <div class="application-field">
+                      <input type="text" name="phone" required /></div
+                  ></label>
+                </li>
+                <li class="application-question">
+                  <label
+                    ><div class="application-label">Current company</div>
+                    <div class="application-field">
+                      <input type="text" name="org" /></div
+                  ></label>
+                </li>
+              </ul>
+            </div>
+
+            <!--SECTION PAGE PART2-->
+
+            <div class="section page-centered application-form">
+              <h4>Links</h4>
+              <ul>
+                <li class="application-question">
+                  <label
+                    ><div class="application-label">LinkedIn URL</div>
+                    <div class="application-field">
+                      <input type="text" name="urls[LinkedIn]" /></div
+                  ></label>
+                </li>
+                <li class="application-question">
+                  <label
+                    ><div class="application-label">GitHub URL</div>
+                    <div class="application-field">
+                      <input type="text" name="urls[GitHub]" /></div
+                  ></label>
+                </li>
+                <li class="application-question">
+                  <label
+                    ><div class="application-label">Other website</div>
+                    <div class="application-field">
+                      <input type="text" name="urls[Other]" /></div
+                  ></label>
+                </li>
+              </ul>
+            </div>
+
+            <!--CENTRALIZED APP PART3-->
+
+            <div
+              class="section page-centered application-form"
+              data-qa="additional-cards"
+            >
+              <h4 data-qa="card-name">Prescreen Questions</h4>
+              <input
+                type="hidden"
+                value='{"createdAt":1513631508506,"text":"Prescreen Questions","instructions":"","type":"posting","fields":[{"type":"dropdown","text":"I&apos;m applying to work from the following location","description":"","required":true,"id":"3ac35321-37c9-4886-8f15-e577bbdfec9e","prompt":"","options":[{"text":"Australia","optionId":"7aed10d2-9d86-49a3-b434-93a68792c850"},{"text":"Berlin","optionId":"6909ce97-89ab-4c7c-b2e4-3ba9e3fc7831"},{"text":"Germany","optionId":"ef61c28d-9ce5-4512-b559-aed39d0652d9"},{"text":"Chicago","optionId":"192cbf17-3751-4bcc-b1e0-6f5236d8c491"},{"text":"Hamburg","optionId":"23d28406-74d9-46e0-bbba-eaac2871dc4f"},{"text":"Hong Kong","optionId":"8847b08b-0650-4762-8278-8d9f54ac0e46"},{"text":"Krakow","optionId":"6db87621-aa25-4f7c-8de0-9a902bb9b8b1"},{"text":"London","optionId":"6511c8d9-5fd0-4b4d-ad1c-d528da8c07bc"},{"text":"Munich","optionId":"afcb958b-ca61-42a5-a17b-6e227f6e1e76"},{"text":"Remote Australia","optionId":"dd77996b-4d36-4c14-8c1f-97a620292764"},{"text":"Remote Hong Kong","optionId":"b93a4b8c-86d0-4620-9caa-1ce32c6dcbc5"},{"text":"Remote Poland","optionId":"3b39a02e-003d-4920-8044-b62511acaa44"},{"text":"Remote United Kingdom","optionId":"e5153dd2-0648-4e6a-9cc0-6d0afb1c8188"},{"text":"Remote United States","optionId":"e5e4f8d1-a8fe-4d4f-aea5-9f0c40743693"},{"text":"Remote Canada","optionId":"cdb13511-f484-4266-9fd7-ee1315a872d8"}]},{"type":"textarea","text":"If applying to Remote US location, what state(s) are you able to work in?","description":"","required":true,"id":"bdffc5ce-5eb1-4c64-87b9-bb546f097332"},{"type":"multiple-choice","text":"Are you legally authorized to work in the country in which the job you are applying for is located?","description":"","required":true,"id":"ff20c77e-68c5-4c1a-a8a1-14d751621671","options":[{"text":"Yes","optionId":"4bd1067b-c181-4108-9fb3-da9f0acec772"},{"text":"No","optionId":"0575d8ba-f091-41ff-b9e9-488e8f80304e"}]},{"type":"text","text":"Do you currently require sponsorship for employment visa status? if so, please explain","description":"","required":true,"id":"5db73bd3-9467-42f8-b959-af7dd878dac4"},{"type":"text","text":"Will you in the future require sponsorship for employment visa status? if so, please explain","description":"","required":true,"id":"dc6ce96b-2e99-4191-90f2-d59619c3214f"},{"type":"text","text":"My realistic base gross annual salary (not including bonus/commission) expectation for my next role is:","description":"","required":true,"id":"b75e7e2a-a880-43a8-957d-eee3249128b1"},{"type":"text","text":"What is your preferred first and last name?","description":"","required":true,"id":"0c9b3c43-5db6-4a77-8891-ace83e107166"},{"type":"text","text":"What are your pronouns?","description":"","required":true,"id":"199d9215-6992-47d6-a503-0347b8e8882f"},{"type":"text","text":"How did you hear about this opportunity?","description":"","required":true,"id":"030d8cbc-46cb-4e29-874b-80f3a724dde1"},{"type":"multiple-choice","text":"I confirm that my answers to questions in this online interview are complete and accurate and that Relativity may rely on my answers. Permission is granted to Relativity to verify all statements in this online interview.","description":"","required":true,"id":"36127563-5f6b-4469-a201-97ced740dad5","options":[{"text":"Yes","optionId":"64617a7c-04f7-45b8-acd5-98b5b57ce594"},{"text":"No","optionId":"cb98b5be-cf78-483b-a166-9170f30f6003"}]}],"accountId":"58f14b62-e545-47a4-bf79-674ad73b42e3","secret":true,"fields0":{"text":"I&apos;m applying to work from the following location","description":"","options0":{"text":"Australia","optionId":"7aed10d2-9d86-49a3-b434-93a68792c850"},"options1":{"text":"Berlin","optionId":"6909ce97-89ab-4c7c-b2e4-3ba9e3fc7831"},"options2":{"text":"Germany","optionId":"ef61c28d-9ce5-4512-b559-aed39d0652d9"},"options3":{"text":"Chicago","optionId":"192cbf17-3751-4bcc-b1e0-6f5236d8c491"},"options4":{"text":"Events","optionId":"cf167d16-2665-44d8-a4b4-75f72e8b55d1"},"options5":{"text":"Hamburg","optionId":"23d28406-74d9-46e0-bbba-eaac2871dc4f"},"options6":{"text":"Germany","optionId":"1738aa4c-68de-44e7-a6a3-ac0e01ed222c"},"options7":{"text":"Hong Kong","optionId":"8847b08b-0650-4762-8278-8d9f54ac0e46"},"options8":{"text":"Krakow","optionId":"6db87621-aa25-4f7c-8de0-9a902bb9b8b1"},"options9":{"text":"London","optionId":"6511c8d9-5fd0-4b4d-ad1c-d528da8c07bc"},"options10":{"text":"Munich","optionId":"afcb958b-ca61-42a5-a17b-6e227f6e1e76"},"options11":{"text":"Germany","optionId":"1c24dd9f-7a94-4e94-997b-276b9f34e636"},"options12":{"text":"Remote Australia","optionId":"dd77996b-4d36-4c14-8c1f-97a620292764"},"options13":{"text":"Remote Hong Kong","optionId":"b93a4b8c-86d0-4620-9caa-1ce32c6dcbc5"},"options14":{"text":"Remote Poland","optionId":"3b39a02e-003d-4920-8044-b62511acaa44"},"options15":{"text":"Remote United Kingdom","optionId":"e5153dd2-0648-4e6a-9cc0-6d0afb1c8188"},"options16":{"text":"Remote United States","optionId":"e5e4f8d1-a8fe-4d4f-aea5-9f0c40743693"},"options17":{"text":"Reston","optionId":"f0c3a523-227c-4ad6-b4af-28f344f94175"}},"fields1":{"text":"Based on you answer listed above, will you require relocation assistance?","description":"","options0":{"text":"Yes","optionId":"d0d59d28-acc4-4dbd-9a19-8223cb7abf9b"},"options1":{"text":"No","optionId":"1f20f7bf-2237-4467-960e-ba303d255753"}},"fields2":{"text":"Are you legally authorized to work in the country in which the job you are applying for is located?","description":"","options0":{"text":"Yes","optionId":"4bd1067b-c181-4108-9fb3-da9f0acec772"},"options1":{"text":"No","optionId":"0575d8ba-f091-41ff-b9e9-488e8f80304e"}},"fields3":{"text":"Will you now or in the future require sponsorship for employment visa status? if so, please explain","description":"","options0":{"text":"Yes","optionId":"f2f9104b-f03f-460b-b8f4-8df4f406c90f"},"options1":{"text":"No","optionId":"2ba6beea-b646-4168-b562-6574304a8d9f"}},"fields4":{"text":"My realistic base gross annual salary (not including bonus/commission) expectation for my next role is:","description":""},"fields5":{"text":"I confirm that my answers to questions in this online interview are complete and accurate and that Relativity may rely on my answers. Permission is granted to Relativity to verify all statements in this online interview.","description":"","options0":{"text":"Yes","optionId":"64617a7c-04f7-45b8-acd5-98b5b57ce594"},"options1":{"text":"No","optionId":"cb98b5be-cf78-483b-a166-9170f30f6003"}},"fields6":{"text":"What is your preferred first and last name?","description":""},"fields7":{"text":"How did you hear about this opportunity?","description":"","options0":{"text":"Anita B.Org","optionId":"8518bad9-2f2d-4b98-b691-5caba67ad2c6"},"options1":{"text":"B.E.S.T.","optionId":"d2e0fd8f-c820-4ce7-9790-cdb5b1c8854a"},"options2":{"text":"Black Tech Jobs","optionId":"ff498bcf-baf9-4441-b675-e38d31ea527e"},"options3":{"text":"Black Tech Mecca","optionId":"2c4e0a24-515b-4528-8568-5750eef5f0de"},"options4":{"text":"Built In","optionId":"6e6f5f70-cc84-400e-ae71-60382d1a0d38"},"options5":{"text":"BulldogJobs – Krakow","optionId":"bd0b46f8-051a-4fa0-924b-68754a0f83a0"},"options6":{"text":"BWISE","optionId":"2545e50e-6fec-45bb-b63a-291ef3349d7a"},"options7":{"text":"ChickTech","optionId":"2dd12d1e-3285-48a1-a425-6ff1edc6d724"},"options8":{"text":"ChIPs","optionId":"6212ab62-d08e-4f81-9854-c94c2b90f328"},"options9":{"text":"Company Website","optionId":"07ba3ede-5da8-4d43-a115-01c68ca43104"},"options10":{"text":"Facebook","optionId":"5e185dc6-e237-46c2-9c96-016e416755a3"},"options11":{"text":"Glassdoor","optionId":"3fc5b5c3-20ac-40ec-8cad-4cd7358f0773"},"options12":{"text":"Inclusive Tech Alliance - London","optionId":"c197c2d4-b206-4063-b7a1-76c53a36c092"},"options13":{"text":"Instagram","optionId":"c1382fbc-201d-4a60-8966-c5ae693d4004"},"options14":{"text":"Latinas in Tech","optionId":"3c65dad4-ba76-426d-b413-2137c6fb9d22"},"options15":{"text":"Lesbians Who Tech","optionId":"7200d029-e372-4dae-a1bd-e32e1913f7b2"},"options16":{"text":"LinkedIn","optionId":"ed19cf44-8a01-44bc-9eb5-12e7287979f9"},"options17":{"text":"Meetup","optionId":"850135b8-d65f-4c03-946d-74977af9f758"},"options18":{"text":"National Black MBA Association","optionId":"35f260d9-4f2e-4fc0-b6de-8ff92a561a04"},"options19":{"text":"National Society of Black Engineers (NSBE)","optionId":"0a258a3c-08e3-42ca-b9e6-f033bd8f089c"},"options20":{"text":"Other job board","optionId":"ee6020d8-dcc8-4a1c-a30b-b9050f4338b5"},"options21":{"text":"Perspektywy Education Foundation - Krakow","optionId":"95819935-ccaa-4cd2-ab3f-b14c147b80be"},"options22":{"text":"PowerToFly","optionId":"0c26129e-e7c5-43f0-ab85-15012725613f"},"options23":{"text":"Prospanica","optionId":"958c5646-892a-4d1f-8813-211f2aa89b32"},"options24":{"text":"Recruiter","optionId":"bb294369-5c6b-496a-9cda-742e2d32b58a"},"options25":{"text":"Referral","optionId":"049b7fbd-55a8-45af-b763-0ee144d4c105"},"options26":{"text":"RegTech Women - London","optionId":"d792f9de-3c2b-4b0c-bf39-0b14cd1c54be"},"options27":{"text":"Relativity Event","optionId":"ec61b383-a7ae-4b68-8460-f09b15c73ea1"},"options28":{"text":"Society of Hispanic Professional Engineers (SHPE)","optionId":"d3bfc8fd-9af5-427d-a9ac-9d755dd65a2b"},"options29":{"text":"Society of Women Engineers (SWE)","optionId":"bb18ad14-9796-4b3a-9d42-f18311c12c95"},"options30":{"text":"Techqueria","optionId":"ffe1bbe3-d166-4f12-9287-efa60eb24f87"},"options31":{"text":"Twitter","optionId":"0d5e353b-c987-4642-b303-83c690d059a8"},"options32":{"text":"Women in e-Discovery","optionId":"fcac9f06-8c6c-4361-948e-880d84b2940b"},"options33":{"text":"Women in Technology – Krakow","optionId":"03d1f29f-2c4e-404f-858f-5f78afd9d38d"},"options34":{"text":"","optionId":"a8b02f2b-1a8b-4360-966d-dd94665b62ed"}},"id":"cf6aab68-f2e2-4001-8745-8581f76e4f73"}'
+                name="cards[cf6aab68-f2e2-4001-8745-8581f76e4f73][baseTemplate]"
+              />
+              <ul>
+                <li class="application-question custom-question">
+                  <label
+                    ><div class="application-label full-width dropdown">
+                      <div class="text">
+                        I'm applying to work from the following location<span
+                          class="required"
+                          >✱</span
+                        >
+                      </div>
+                    </div>
+                    <div class="application-field full-width required-field">
+                      <div class="application-dropdown">
+                        <select
+                          name="cards[cf6aab68-f2e2-4001-8745-8581f76e4f73][field0]"
+                        >
+                          <option value="">Select...</option>
+                          <option>Remote Australia</option>
+                          <option>Remote Hong Kong</option>
+                          <option>Remote Poland</option>
+                          <option>Remote United Kingdom</option>
+                          <option>Remote United States</option>
+                          <option>Remote Canada</option>
+                        </select>
+                      </div>
+                    </div></label
+                  >
+                </li>
+                <li class="application-question custom-question">
+                  <label
+                    ><div class="application-label full-width textarea">
+                      <div class="text">
+                        If applying to Remote US location, what state(s) are you
+                        able to work in?<span class="required">✱</span>
+                      </div>
+                    </div>
+                    <div class="application-field full-width required-field">
+                      <textarea
+                        class="card-field-input"
+                        name="cards[cf6aab68-f2e2-4001-8745-8581f76e4f73][field1]"
+                        required="required"
+                      ></textarea></div
+                  ></label>
+                </li>
+                <li class="application-question custom-question">
+                  <label
+                    ><div class="application-label full-width multiple-choice">
+                      <div class="text">
+                        Are you legally authorized to work in the country in
+                        which the job you are applying for is located?<span
+                          class="required"
+                          >✱</span
+                        >
+                      </div>
+                    </div>
+                    <div class="application-field full-width required-field">
+                      <ul data-qa="multiple-choice">
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="cards[cf6aab68-f2e2-4001-8745-8581f76e4f73][field2]"
+                              value="Yes"
+                              required="required"
+                            /><span class="application-answer-alternative"
+                              >Yes</span
+                            ></label
+                          >
+                        </li>
+                        <li>
+                          <label
+                            ><input
+                              type="radio"
+                              name="cards[cf6aab68-f2e2-4001-8745-8581f76e4f73][field2]"
+                              value="No"
+                              required="required"
+                            /><span class="application-answer-alternative"
+                              >No</span
+                            ></label
+                          >
+                        </li>
+                      </ul>
+                    </div></label
+                  >
+                </li>
+                <li class="application-question custom-question">
+                  <label
+                    ><div class="application-label full-width text">
+                      <div class="text">
+                        Do you currently require sponsorship for employment visa
+                        status? if so, please explain<span class="required"
+                          >✱</span
+                        >
+                      </div>
+                    </div>
+                    <div class="application-field full-width required-field">
+                      <input
+                        required="required"
+                        class="card-field-input"
+                        type="text"
+                        placeholder="Type your response"
+                        value=""
+                        name="cards[cf6aab68-f2e2-4001-8745-8581f76e4f73][field3]"
+                      /></div
+                  ></label>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="section page-centered application-form last-section-apply"
+            >
+              <button
+                class="postings-btn template-btn-submit hex-color"
+                data-qa="btn-submit"
+                href="#"
+                type="submit"
+              >
+                Submit application
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
